@@ -21,6 +21,7 @@
   var module = angular.module('twitchy', ['ngSanitize']);
   var prov = {
     emotes: {{EMOTES}},
+    emotesWidths: {{EMOTESWIDTHS}},
     addEmotes: function(emots){
       emots.forEach(function(emo){
         if(prov.emotes.indexOf(emo)==-1) prov.emotes.push(emo);

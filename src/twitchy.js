@@ -18,10 +18,10 @@
    *
    * @usage <span ng-bind-html="twitch_expression | twitchy"></span>
    */
-  var module = angular.module('twitchy', ['ng-sanitize']);
+  var module = angular.module('twitchy', ['ngSanitize']);
   var prov = {
-    emotes = {{EMOTES}},
-    addEmotes = function(emots){
+    emotes: {{EMOTES}},
+    addEmotes: function(emots){
       emots.forEach(function(emo){
         if(prov.emotes.indexOf(emo)==-1) prov.emotes.push(emo);
       });

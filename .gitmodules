@@ -1,0 +1,3 @@
+[submodule "build/twitch-chat-emoticon-sprites"]
+	path = build/twitch-chat-emoticon-sprites
+	url = git@github.com:paralin/twitch-chat-emoticon-sprites.git

@@ -1,0 +1,33 @@
+{
+  "name": "angular-twitchy",
+  "version": "0.0.1",
+  "main": [
+    "./dist/images/twitch-emoticons.png",
+    "./dist/stylesheets/twitch-emoticons.css",
+    "./dist/scripts/twitchy.js"
+  ],
+  "authors": [
+    "Christian Stewart <kidovate@gmail.com>"
+  ],
+  "description": "Filter to replace Twitch emotes in a chat with images.",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "twitch",
+    "emote",
+    "kappa",
+    "twitchy",
+    "angular"
+  ],
+  "license": "MIT",
+  "homepage": "http://github.com/paralin/twitchy",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "build"
+  ]
+}

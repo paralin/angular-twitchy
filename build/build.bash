@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ./twitch-chat-emoticon-sprites/ && node generate.js -js default && cd -
+cd ./twitch-chat-emoticon-sprites/ && node generate.js -js wagamamatv draskyll beyondthesummit && cd -
 cp ../src/twitchy.js ../dist/scripts/twitchy.js
 sed -e "s/{{EMOTES}}/$(cat ./twitch-chat-emoticon-sprites/icons.json)/" -i ../dist/scripts/twitchy.js
 sed -e "s/{{EMOTESWIDTHS}}/$(cat ./twitch-chat-emoticon-sprites/iconswidths.json)/" -i ../dist/scripts/twitchy.js
